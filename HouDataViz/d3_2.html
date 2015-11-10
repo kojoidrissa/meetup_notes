@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+
+    <svg width="960" height="500"></svg>
+
+<script>
+  var sampleData = [1, 2, 3, 4, 5];
+  data = sampleData;
+
+  function drawMyBars(data){
+  // Tell d3 that each "rect" should be bound to each item in sampleData
+  var eachDataPoint = d3.select("svg")
+    .selectAll("rect")
+    .data(sampleData);
+  // Says that if there is a data point that is not rendered yet,
+  // d3 should make a new "rect" and add it to the svg
+  eachDataPoint.enter().append("rect");
+  // Says that for each data point as bound to a "rect",
+  // it should set the rect's attributes based on the data
+  eachDataPoint.attr("x", function(dataItem, index){
+      return 20 * index;
+    })
+    .attr("y", function(){
+      return 0;
+    })
+    .attr("height", function(dataItem, index){
+      return dataItem * 100;
+    })
+    .attr("width", function(dataItem, index){
+      return 20;
+    });
+    
+  // Says that for each "rect" point that is exiting, remove that element
+  eachDataPoint.exit().remove();
+}
+
+</script>
+</body>
+</html>
