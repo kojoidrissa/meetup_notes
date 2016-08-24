@@ -58,3 +58,22 @@ The path to madness, in most cases
 - Law of Demeter violations
 - Don't mock 'value' objects (constants, strings, etc)
 - Change-Detector tests: test that breaks w/ ANY change to the system
+- Don't use tests in place of code review
+- Tony Hoare quote on
+    - software design
+    - the real value of tests
+- Do NOT mock objects you don't own!!!
+    - *Mock Roles, not Objects*: academic paper
+    - instead, write a small bit of code that TALKS to that object. Test that IT works.
+    - THEN, mock the results of THAT object that YOU own. You can create a double that returns the SAME results of that "small bit of code"
+
+## Types of Testing
+-  Example-based: You proved specific values or examples of what you're testing; the most common approach
+-  Property-based: Describe the pre & post conditions and constraints of your system; the computer then generates inputs based on those conditions and tests them against the valid post conditions.
+    -  hypothesis (in Python), based on QuickCheck from Haskell
+-  Mutation-based testing
+
+## Alternatives to Testing
+-  Provable code
+    -  Michael L. Perry
+-  Interface Design: if a SUT is too complicated to test, it may need to be redesigned.
