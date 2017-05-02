@@ -6,3 +6,13 @@ Intro to GraphQL with Python
 From Facebook
 
 Netflix has `Falcor <https://netflix.github.io/falcor/starter/what-is-falcor.html>`_
+
+`Graphene <http://graphene-python.org/>`_
+
+`GraphiQL <https://www.npmjs.com/package/graphiql>`_, "A graphical interactive in-browser GraphQL IDE". Github `repo <https://github.com/graphql/graphiql>`_
+
+Drawbacks (vs REST api)
+----------
+-  Harder to cache
+-  Newer project/product. Not as well supported, could be buggy.
+-  May not have all the features you want; HOWEVER, that may give you opportunities to contribute TO the project.
