@@ -1,0 +1,8 @@
+Intro to GraphQL with Python
+=============================
+
+`Slides <bit.ly/py-graphql>`_
+
+From Facebook
+
+Netflix has `Falcor <https://netflix.github.io/falcor/starter/what-is-falcor.html>`_
