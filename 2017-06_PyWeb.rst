@@ -1,0 +1,56 @@
+PyWeb Houston 2017-06: Intro to Machine Learning
+===================================================
+-  A category of AI, trying to have computers behave like humans by using statistical methods to "learn" from large bodies of data.
+	-  AI --> ML --> Deep Learning
+-  TPU - Tensor Processing Units: Invented by Google; 15-30x faster than CPUs and GPUs
+
+Basic Steps
+-----------
+-  Get data
+-  Clean/Prep data
+	-  split it into Training/Validation(10%)/Testing sets
+-  Train model
+-  Test your model vs independent data
+-  Improve/Iterate
+
+ANN: Artificial Neural Network
+-------------------------------
+The "standard" NN we often think of.
+
+CNN: Convolutional Neural Network
+---------------------------------
+-  Style transfer
+	-  `MXNET <https://github.com/dmlc/mxnetL>`_ a deep learning library in Python
+
+RNN: Recurring Neural Networks
+-----------------------------
+` The Unreasonable Effectiveness of Recurrent Neural Networks <https://karpathy.github.io/2015/05/21/rnn-effectiveness/>`_
+
+Reinforced Learning
+--------------------
+A step b/w Supervised (allthe above examples) an Unsupervised learning
+
+Generative Adversarial Network
+-------------------------------
+One network gets better via attacks by another network
+
+Python Libraries
+-----------------
+-  MXNET
+-  PyTorch
+-  Theano
+-  Blocks
+-  Keras
+-  TensorFlow
+	-  Best starting point
+	-  Large community
+-  scikit-learn
+
+Web APIs
+---------
+-  MS Azure ML, Google ML, Amazon ML
+-  IBM Watson
+-  Wit.AI
+-  API.AI
+-  Diffbot
+	-  Extract data from a web page (text/image/video content)
