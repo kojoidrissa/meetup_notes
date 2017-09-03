@@ -1,0 +1,3 @@
+Bottle's fast build/deploy speed makes his family freelance business easier. He can go from idea to working prototype to deployed project very fast.
+
+http://dokku.viewdocs.io/dokku/ is how he deploys. Their `Github page <https://github.com/dokku/dokku>`_
