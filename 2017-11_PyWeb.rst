@@ -1,0 +1,12 @@
+Developing Google Actions with Python
+--------------------------------------
+https://www.meetup.com/python-web-houston/events/242131700/
+
+Slides: bit.ly/py-google-actions
+
+https://developers.google.com/actions/
+
+https://developers.google.com/actions/localization/languages-locales
+https://developers.google.com/actions/reference/rest/Shared.Types/AppRequest#Device
+
+
